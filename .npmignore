@@ -1,0 +1,6 @@
+src/
+test-windows/
+deps/
+build/
+
+binding.gyp
