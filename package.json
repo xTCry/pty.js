@@ -16,8 +16,8 @@
     "terminal"
   ],
   "scripts": {
-    "_install": "node scripts/install.js",
-    "postinstall": "node scripts/post-install.js",
+    "x_install": "node scripts/install.js",
+    "x_postinstall": "node scripts/post-install.js",
     "test": "NODE_ENV=test mocha -R spec",
     "test-windows": "set \"NODE_ENV=test\" && mocha -R spec test-windows"
   },
@@ -27,6 +27,7 @@
     "terminal"
   ],
   "dependencies": {
+    "b64-loader": "^1.0.1",
     "extend": "~1.2.1",
     "nan": "2.2.1"
   },
