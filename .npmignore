@@ -4,3 +4,4 @@ deps/
 build/
 
 binding.gyp
+_binding.gyp
